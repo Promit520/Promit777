@@ -1,0 +1,82 @@
+h1{
+    font:50px;
+}
+h2{
+    font: 40px;
+}
+p{
+    color: darkslategray;
+}
+body{
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.pink-highlight{
+    color: palevioletred;
+}
+.half-width{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+   
+    background-image: url(C:/Web Development/Projects/complete-web-development-bangla-resources/personal-website/header-bg.png);
+    background-repeat: no repeat;
+    
+    
+}
+.section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: palevioletred;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+.biography{
+    background-image: url("C:/Web Development/Projects/complete-web-development-bangla-resources/personal-website/biography-bg.png");
+    background-repeat: no-repeat;
+}
+
+.{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+
+}
+.column img{
+    height: 500px;
+}
+.row::after  {
+    content: "";
+    display: table;
+    clear:both;
+}
+.text{
+    text-align: center;
+}
+.bottom-banner{
+    background-image: url("C:\Web Development\Projects\complete-web-development-bangla-resources\personal-website\footer-bg.png");
+    float: left;
+    background-repeat: no-repeat;
+}
+.button{
+    text-decoration: none;
+    background-color: deeppink;
+    padding: 20px 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
